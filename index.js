@@ -20,19 +20,13 @@
 // if(true){
 //     var a = 10;
 //     let d = 20;
-//     // const c = 30;
+    // const c = 30;
 //     console.log("inner:", d);
     
 // }
 // console.log(a)
 // console.log(d)
 // console.log(c)
-
-
-
-
-
-
 
 
 
@@ -57,15 +51,18 @@
 
 //Destructuring
 // let arr = [3,5,6,7,8,9,14]
-// // let [a,b,c,d, ...rest] = arr
+// let [a,b,c,d, ...rest] = arr
 // let [a, , , ...rest] = arr
 // console.log(a,  ...rest)
 
 
 // const obj = {a: 1, b : 2}
-// const {a,b} = obj;
+// const {a,e} = obj;
 // console.log(a,b)
 
+// var a =12;
+
+// console.log(a)
 
 
 
@@ -74,7 +71,7 @@
 // function talk(msg='hi'){
 //     console.log(msg)
 // }
-// talk("hello");
+// talk();
 
 //Rest parameters
 // function sum(...args){
@@ -138,3 +135,57 @@
 //in arrow function.
 //for creation of object we mostly used curely braces but in react we use perentheis very 
 //much.
+
+
+//object literal
+// const person = {
+//     name: 'moeed',
+//     age: 28,
+//     address: 'losangles',
+ 
+// }
+// const{name, age, address} = person;
+// const responce = {
+//     name ,
+//     age,
+//     address,
+//     phone: '02839823997'
+    
+// }
+// console.log(responce);
+
+// //itrator.
+// const numbers = [1,2,3,4,5]
+// for(const digit of numbers){
+//     console.log(digit);
+    
+// }
+
+
+//map methods
+
+//  const numbers = [1,2,3,4,5]
+//  const doubledNumbers = numbers.map(num => num * 2)
+//  console.log(doubledNumbers)
+
+//  const persons = ["moeed", "mujtaba", "ali"]
+//  const capitalizedPersons = persons.map(index => index.toUpperCase())
+
+//  //filter method
+//  const filteredNumbers = numbers.filter(num => num % 2 === 0)
+//  console.log(filteredNumbers)
+
+
+// //sort method
+// const newAlphabet = ["c", "d", "e","f"]
+// const arrayy=newAlphabet.sort((a,b) => a > b ? -1 : 1);
+// console.log(arrayy)
+
+// //reverse method
+// const a = ["c", "d", "e","f","alias"]
+// const b = a.reverse((item)=>{
+//     return item
+// })
+// console.log(b)
+
+
