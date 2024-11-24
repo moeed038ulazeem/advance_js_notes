@@ -261,3 +261,19 @@
 //pending(order late for some reason but confirmed that product is delivered)
 //settled(PRODUCT_ WILL cancel or fullfilled 50 50 chances)
 //API ALSREADY RETURNED PROMISES BY DEFULT 
+
+
+// let promise = new Promise((resolve,reject)=>{
+//     let check=false;
+//     if(check){
+//         resolve('success')
+//     }else{
+//         reject('failed')
+//     }
+// })
+// promise.then((successMessage)=>{
+// console.log(successMessage)
+// })
+// promise.catch((error)=>{
+//     console.log(error)
+// })
